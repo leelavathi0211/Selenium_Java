@@ -1,5 +1,5 @@
-package JAVA;
-import java.util.*;
+package Arrays;
+//import java.util.*;
 /*MAX AND MIN IN ARRAY*/
 public class MINMAX_ARRAY_swapping
 {
