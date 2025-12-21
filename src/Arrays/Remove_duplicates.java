@@ -30,7 +30,7 @@ public class Remove_duplicates {
 		Set<Integer> dup=new HashSet<>();
 		Arrays.sort(a);
 		for(int i:a) {
-			if(!s.add(i)) {
+			if(!s.add(i)==false) {
 				dup.add(i);
 			}
 		}

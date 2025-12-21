@@ -9,9 +9,9 @@ public class Countoccurance_foreveryword_string {
 		String s="Leelavathi Kakinada";
 		s=s.toLowerCase();
 		String []a=s.split(" ");
-		
+		Map<Character,Integer> m=new HashMap<>();
 		for(String i:a) {
-			Map<Character,Integer> m=new HashMap<>();
+			
 			for(char ch:i.toCharArray()) {
 				Integer count=m.get(ch);
 				if(count==null) {
@@ -22,9 +22,10 @@ public class Countoccurance_foreveryword_string {
 					
 			}
 		
-		System.out.println(i);
+//		System.out.println(i);
 		System.out.println(m);
 		}
+		System.out.println(m);
 	}
 
 }

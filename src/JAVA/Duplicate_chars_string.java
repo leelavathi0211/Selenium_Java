@@ -6,7 +6,7 @@ import java.util.Set;
 public class Duplicate_chars_string {
 
 	public static void main(String[] args) {
-		String s="javata";
+		String s="javtat";
 		char []c=s.toCharArray();
 		Set<Character> se=new HashSet<Character>();
 		for(char i:c) {

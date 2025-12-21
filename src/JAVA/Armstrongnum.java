@@ -9,7 +9,8 @@ public class Armstrongnum {
 		while(num>0) {
 			 rem=num%10;
 			num=num/10;
-			sum=sum+(rem*rem*rem);			
+			sum=sum+(rem*rem*rem);	
+			System.out.println(sum);
 		}
 		if(tem==sum){
 			System.out.println("Armstrng");
@@ -21,28 +22,28 @@ public class Armstrongnum {
 
 	
 	/*FACTORIAL*/
-	public static void factorial(int n) {
-		int fact=1;
-		for(int i=1;i<=n;i++) {
-			fact=fact*i;
-		}
-		System.out.println(fact);
-	}
-	public static int fact(int nu) {
-		if(nu==0) {
-			return 1;
-		}
-		else {
-		return (nu*fact(nu-1));
-		}
-	}
-	
+//	public static void factorial(int n) {
+//		int fact=1;
+//		for(int i=1;i<=n;i++) {
+//			fact=fact*i;
+//		}
+//		System.out.println(fact);
+//	}
+//	public static int fact(int nu) {
+//		if(nu==0) {
+//			return 1;
+//		}
+//		else {
+//		return (nu*fact(nu-1));
+//		}
+//	}
+//	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		isarmstrong(373);
-		factorial(3);
-		fact(5);
+		isarmstrong(153);
+//		factorial(3);
+//		fact(5);
 	}
 
 }
