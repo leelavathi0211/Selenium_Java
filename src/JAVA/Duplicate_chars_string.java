@@ -18,3 +18,4 @@ public class Duplicate_chars_string {
 	}
 
 }
+//longest substring

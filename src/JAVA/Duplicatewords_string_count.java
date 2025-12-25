@@ -22,10 +22,14 @@ public class Duplicatewords_string_count {
 			}
 		}
 		System.out.println(m);
-		for(Map.Entry<String,Integer> entry:m.entrySet()) {
-			if(entry.getValue()>1)
-			System.out.println(entry.getKey()+" "+entry.getValue());
+		//print using loop
+		for(String k:m.keySet()){
+			System.out.println(k+"-"+m.get(k));
 		}
+//		for(Map.Entry<String,Integer> entry:m.entrySet()) {
+//			if(entry.getValue()>1)
+//			System.out.println(entry.getKey()+" "+entry.getValue());
+//		}
 		
 	}
 

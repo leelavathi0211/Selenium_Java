@@ -23,7 +23,7 @@ public class Countoccurance_foreveryword_string {
 			}
 		
 //		System.out.println(i);
-		System.out.println(m);
+//		System.out.println(m);
 		}
 		System.out.println(m);
 	}
