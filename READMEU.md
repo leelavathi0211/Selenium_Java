@@ -21,3 +21,10 @@ Day-2
 ->Command to run and auto generate the code with xpaths
 -open the cmd from pom path and run this command
 mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen demo.playwright.dev/todomvc"
+
+Day-3
+1.Handling dropdown
+2.Checkbox
+
+->innertext()==gettext() and getAttribute()-to get value
+->findelements()==queryselectAll-return list of web elements
